@@ -20,6 +20,6 @@ app.use(express.json())
 app.use(videoRoutes)
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`)
 })
